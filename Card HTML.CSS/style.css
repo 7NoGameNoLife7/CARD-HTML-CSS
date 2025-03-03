@@ -53,7 +53,7 @@ h2{
     border-radius: 0.75rem;
     border-style: none;
     padding: 0.5rem 1rem;
-    font-family: "Sigmar";
+    font-family: "Sigmar" "sans-serif";
     font-size: 1.35rem;
 }
 .card-button:hover{
