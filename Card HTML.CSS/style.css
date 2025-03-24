@@ -3,11 +3,17 @@
 *{
     box-sizing: border-box;
 }
+:root {
+        --color-body:rgb(93, 15, 117);
+        --color-cardBg:antiquewhite;
+        --color-h2:blue;
+        --color-btnBg:rgb(74, 74, 250);
+}
 body{
     margin: 0;
     background-color: aliceblue;
     font-family: "Sigmar" ;
-    color: rgb(93, 15, 117);
+    color: var(--color-body) ;
 }
 main{
     display: flex;
@@ -15,7 +21,7 @@ main{
     margin: 3rem 1rem;
 }
 .card-container{
-    background-color: antiquewhite;
+    background-color: var(--color-cardBg) ;
     border-radius: 1.5rem;
     display: flex;
     flex-direction: column;
@@ -37,7 +43,7 @@ h1{
 h2{
     font-size: 1rem;
     text-transform: uppercase;
-    color: blue;
+    color: var(--color-h2);
 }
 .designer-description{
     font-size: 1.45rem;
@@ -50,7 +56,7 @@ h2{
     margin: 1rem 0;
 }
 .card-button{
-    background-color: blue;
+    background-color: var(--color-h2);
     color: aliceblue;
     border-radius: 0.75rem;
     border-style: none;
@@ -59,8 +65,8 @@ h2{
     font-size: 1.35rem;
 }
 .card-button:hover{
-    background-color: rgb(74, 74, 250);
-    color: aliceblue;
+    background-color: var(--color-btnBg);
+    color: var(--color-h2);
 }
 .button-container{
     display: flex;
