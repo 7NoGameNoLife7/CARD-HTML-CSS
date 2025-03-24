@@ -14,7 +14,7 @@
 body{
     margin: 0;
     background-color: var(--color-bodyBg);
-    font-family: "Sigmar" ;
+    font-family: "Sigmar" ,sans-serif ;
     color: var(--color-body) ;
 }
 main{
@@ -52,7 +52,7 @@ h2{
     font-weight: 400;
 }
 .designer-quote{
-    font-style: italic;
+    font-style: italic ,sans-serif;
     font-size: 0.9rem;
     width: 100%;
     margin: 1rem 0;
@@ -63,7 +63,7 @@ h2{
     border-radius: 0.75rem;
     border-style: none;
     padding: 0.5rem 1rem;
-    font-family: "Sigmar" "sans-serif";
+    font-family: "Sigmar" ,sans-serif;
     font-size: 1.35rem;
 }
 .card-button:hover{
